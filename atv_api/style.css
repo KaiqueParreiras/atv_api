@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-pai {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: burlywood;
+    height: auto;
+    width: 80%;
+    border-radius: 30px;
+}
+
+#overview {
+    width: 90%;
+    margin-top: 28px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+#mediaImage {
+    padding: 10px;
+    background-color: red;
+}
+
+#options button{
+    background-color: brown;
+    border: 1px solid black;
+    margin: 15px;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#nextButton{
+    background-color: brown;
+    border: 1px solid black;
+    margin: 15px;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+}
